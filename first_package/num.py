@@ -4,8 +4,10 @@ def plus(a, b):
 def minus(a, b):
     return a - b
 
-text = "new text"
+def mul(a, b):
+    return a * b
 
 if  __name__ == '__main__' :
     print(plus(10, 10))
     print(minus(5, 10))
+    print(mul(6, 8))
